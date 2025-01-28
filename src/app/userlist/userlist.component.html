@@ -1,0 +1,95 @@
+<div class="container">
+  <h2>User List</h2>
+
+  
+  <!-- Search and New User in the Same Row -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <!-- Search Inputs -->
+    <div style="display: flex; gap: 20px;">
+      <input
+        type="text"
+        placeholder="Search by name"
+        [(ngModel)]="searchName"
+        (keyup)="applyFilters()"
+        style="padding: 5px; width: 200px;"
+      />
+      <input
+        type="text"
+        placeholder="Search by email"
+        [(ngModel)]="searchEmail"
+        (keyup)="applyFilters()"
+        style="padding: 5px; width: 200px;"
+      />
+      <input
+        type="text"
+        placeholder="Search by city"
+        [(ngModel)]="searchCity"
+        (keyup)="applyFilters()"
+        style="padding: 5px; width: 200px;"
+      />
+    </div>
+
+    <!-- New User Button -->
+    <form (ngSubmit)="onSubmit()" style="margin: 0;">
+      <button type="submit" class="btn btn-primary">New User</button>
+    </form>
+  </div>
+
+  <!-- User Table -->
+  <table border="1" class="user-table">
+    <thead>
+      <tr>
+        <th>
+          <!-- Master checkbox to select all users -->
+          <input
+            type="checkbox"
+            [(ngModel)]="masterSelected"
+            (change)="selectAll()"
+          />
+        </th>
+        <th>S. No.</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>City</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of filteredItems | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
+        <td>
+          <!-- Individual user checkbox -->
+          <input
+            type="checkbox"
+            [(ngModel)]="user.selected"
+            (change)="checkIfAllSelected()"
+          />
+        </td>
+        <td>{{ (p - 1) * 10 + i + 1 }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.contact }}</td>
+        <td>{{ user.city }}</td>
+        <td>
+          <label class="switch">
+            <input
+              type="checkbox"
+              [checked]="user.isActive"
+              (change)="toggleStatus(user)"
+            />
+            <span class="slider round"></span>
+          </label>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Centered Pagination Controls -->
+  <div style="display: flex; justify-content: center; margin-top: 20px;">
+    <pagination-controls
+      (pageChange)="p = $event"
+      previousLabel="Previous"
+      nextLabel="Next"
+    ></pagination-controls>
+  </div>
+</div>

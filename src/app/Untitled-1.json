@@ -1,0 +1,497 @@
+[
+    {
+        "id": 42,
+        "name": "Product Request",
+        "url": "/productrequest",
+        "icon": "fa fa-mail-forward",
+        "parentName": "Inventory",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 122,
+        "name": "DCT",
+        "url": null,
+        "icon": "icon-speedometer",
+        "parentName": null,
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 112,
+        "name": "Vendor Service Appointments",
+        "url": "/serviceAppointmentVendor",
+        "icon": "fa fa-tasks",
+        "parentName": "Call Center",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 48,
+        "name": "User Profile",
+        "url": "/userprofile",
+        "icon": "fa fa-user-circle-o",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 47,
+        "name": "Repair Engineer",
+        "url": "/repairengineer",
+        "icon": "fa fa-mail-reply",
+        "parentName": "Inventory",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 43,
+        "name": "Product Transfer",
+        "url": "/producttransfer",
+        "icon": "fa fa-mail-forward",
+        "parentName": "Inventory",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 41,
+        "name": "Price Book",
+        "url": "/pricebook",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 40,
+        "name": "Warehouse",
+        "url": "/location",
+        "icon": "fa fa-map-marker",
+        "parentName": "Inventory",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 39,
+        "name": "User",
+        "url": "/createuser",
+        "icon": "fa fa-user",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 34,
+        "name": "Manage Inventory",
+        "url": "/manageInventory",
+        "icon": "fa fa-cart-arrow-down",
+        "parentName": "Inventory",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 32,
+        "name": "Battery Inventory Consumptions",
+        "url": "/batteryinventoryconsumption",
+        "icon": "fa fa-tasks",
+        "parentName": "FSL",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 31,
+        "name": "MSL Request",
+        "url": "/Mslrequest",
+        "icon": "fa fa-tasks",
+        "parentName": "Inventory",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 30,
+        "name": "Service Appointments",
+        "url": "/serviceappointment",
+        "icon": "fa fa-tasks",
+        "parentName": "Call Center",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 28,
+        "name": "Quote",
+        "url": "/Quote",
+        "icon": "fa fa-comments-o",
+        "parentName": "Call Center",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 27,
+        "name": "Opportunities",
+        "url": "/Opportunities",
+        "icon": "fa fa-comments-o",
+        "parentName": "Call Center",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 25,
+        "name": "Case",
+        "url": "/cases",
+        "icon": "fa fa-comments-o",
+        "parentName": "Call Center",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 10,
+        "name": "City",
+        "url": "/city",
+        "icon": "fa fa-industry",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 4,
+        "name": "Contacts",
+        "url": "/contacts",
+        "icon": "fa fa-id-card",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 6,
+        "name": "Sites",
+        "url": "/sites",
+        "icon": "fa fa-sitemap",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 7,
+        "name": "Products",
+        "url": "/products",
+        "icon": "fa fa-wpbeginner",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 8,
+        "name": "Assets",
+        "url": "/assets",
+        "icon": "fa fa-wpbeginner",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 9,
+        "name": "Legal Entity",
+        "url": "/legalentity",
+        "icon": "fa fa-balance-scale",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 11,
+        "name": "Zone",
+        "url": "/zone",
+        "icon": "fa fa-object-group",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 3,
+        "name": "Accounts",
+        "url": "/accounts",
+        "icon": "fa fa-briefcase",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 13,
+        "name": "Circles",
+        "url": "/circles",
+        "icon": "fa fa-institution",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 14,
+        "name": "Expenses Management",
+        "url": "/expensesmanagement",
+        "icon": "fa fa-inr",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 21,
+        "name": "Service Resources",
+        "url": "/serviceResource",
+        "icon": "fa fa-file-excel-o",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 22,
+        "name": "Battery FSR-CBMS-Li-lon",
+        "url": "/batteryFSRCBMS",
+        "icon": "fa fa-file-excel-o",
+        "parentName": "FSL",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 23,
+        "name": "Bording/Lodging, DA",
+        "url": "/Bording_lodging_DA",
+        "icon": "fa fa-file-excel-o",
+        "parentName": "Master",
+        "orderId": 0,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 1,
+        "name": "Home",
+        "url": "/home",
+        "icon": "icon-speedometer",
+        "parentName": null,
+        "orderId": 1,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 45,
+        "name": "Product Return",
+        "url": "/productreturnorder",
+        "icon": "fa fa-mail-reply",
+        "parentName": "Inventory",
+        "orderId": 1,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 2,
+        "name": "Master",
+        "url": "/accounts",
+        "icon": "fa fa-archive",
+        "parentName": null,
+        "orderId": 2,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 50,
+        "name": "SSA",
+        "url": "/ssa",
+        "icon": "fa fa-object-group",
+        "parentName": "Master",
+        "orderId": 2,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 49,
+        "name": "User Roles",
+        "url": "/roles",
+        "icon": "fa fa-users",
+        "parentName": "Master",
+        "orderId": 2,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 24,
+        "name": "Call Center",
+        "url": "/cases",
+        "icon": "fa fa-phone",
+        "parentName": null,
+        "orderId": 3,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 33,
+        "name": "Inventory",
+        "url": "/manageInventory",
+        "icon": "fa fa-cart-plus",
+        "parentName": null,
+        "orderId": 5,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 46,
+        "name": "Item to Approve",
+        "url": "/itemtobeapproved",
+        "icon": "fa fa-check-square-o",
+        "parentName": null,
+        "orderId": 6,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 51,
+        "name": "Inventory Mgmt & Planning",
+        "url": "/inventorymonitoringandplanning",
+        "icon": "fa fa-cart-arrow-down",
+        "parentName": "Inventory",
+        "orderId": 8,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 53,
+        "name": "Report",
+        "url": "/report",
+        "icon": "fa fa-bar-chart",
+        "parentName": "Master",
+        "orderId": 50,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 54,
+        "name": "Quote Template",
+        "url": "/quetetemplatetc",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 52,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 55,
+        "name": "Commercial",
+        "url": "/commercial",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 53,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 57,
+        "name": "Approval Workflow",
+        "url": "/approval",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 55,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 58,
+        "name": "DCT Repair",
+        "url": "/repairdct",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 56,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 59,
+        "name": "WCC",
+        "url": "/wcc",
+        "icon": "fa fa-cog",
+        "parentName": "Master",
+        "orderId": 56,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 60,
+        "name": "Invoice",
+        "url": "/invoice",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 56,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 61,
+        "name": "Service Order",
+        "url": "/serviceorder",
+        "icon": "fa fa-recycle ",
+        "parentName": "Inventory",
+        "orderId": 58,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 62,
+        "name": "Customer Inventory",
+        "url": "/coustomerinventory",
+        "icon": "fa fa-cubes",
+        "parentName": "Inventory",
+        "orderId": 59,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 64,
+        "name": "Query Browser",
+        "url": "/qbrowser",
+        "icon": "fa fa-question-circle",
+        "parentName": "Master",
+        "orderId": 61,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 65,
+        "name": "My Inventory",
+        "url": "/myinventory",
+        "icon": "fa fa-cubes",
+        "parentName": "Inventory",
+        "orderId": 62,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 66,
+        "name": "Pre Registration Case",
+        "url": "/prc",
+        "icon": "fa fa-suitcase",
+        "parentName": "Master",
+        "orderId": 62,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 67,
+        "name": "Product Help Guide",
+        "url": "/helpguide",
+        "icon": "fa fa-question-circle",
+        "parentName": "Master",
+        "orderId": 63,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 68,
+        "name": "Partcode Change Request",
+        "url": "/partcodechange",
+        "icon": "fa fa-pencil-square-o",
+        "parentName": "Inventory",
+        "orderId": 64,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 69,
+        "name": "Service Order Return",
+        "url": "/soreturn",
+        "icon": "fa fa-pencil-square-o",
+        "parentName": "Inventory",
+        "orderId": 65,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 70,
+        "name": "Engineer Rating",
+        "url": "/rating",
+        "icon": "fa fa-file-text",
+        "parentName": "Master",
+        "orderId": 66,
+        "defaultUrl": "/home"
+    },
+    {
+        "id": 52,
+        "name": "Workflow",
+        "url": "/workflow",
+        "icon": "fa fa-cog",
+        "parentName": "Master",
+        "orderId": 67,
+        "defaultUrl": "/home"
+    }
+]

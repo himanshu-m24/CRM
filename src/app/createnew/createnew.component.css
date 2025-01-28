@@ -1,0 +1,59 @@
+.createNew-container {
+    width: 600px; /* Adjust the width of the container */
+    margin: 20px auto; /* Center the container on the page */
+    padding: 20px; /* Add spacing inside the container */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    background-color: #f9f9f9; /* Optional: Background color */
+    font-family: Arial, sans-serif; /* Set a clean font style */
+  }
+  
+  .createNew-container label {
+    display: block; /* Ensure labels are on their own line */
+    font-weight: bold; /* Make labels stand out */
+    margin-bottom: 5px; /* Add spacing below labels */
+  }
+  
+  .createNew-container input {
+    width: 100%; /* Make inputs span the width of the container */
+    padding: 8px; /* Add padding inside the input */
+    margin-bottom: 15px; /* Add spacing between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 14px; /* Font size for inputs */
+    box-sizing: border-box; /* Ensure padding doesn't exceed width */
+  }
+  
+  .createNew-container input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3); /* Subtle glow effect */
+  }
+  
+  .createNew-container small {
+    color: #d9534f; /* Error messages in red */
+    font-size: 12px; /* Smaller font for error messages */
+  }
+  
+  .createNew-container button {
+    width: 100%; /* Make the button span the container width */
+    padding: 10px; /* Add padding inside the button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Larger font for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .createNew-container button:disabled {
+    background-color: #ccc; /* Change background when disabled */
+    cursor: not-allowed; /* Show not-allowed cursor */
+  }
+  
+  .createNew-container button:hover:not(:disabled) {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
