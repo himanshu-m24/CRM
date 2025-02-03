@@ -25,7 +25,7 @@ export class UserListComponent implements OnInit {
 
   ngOnInit(): void {
     this.userslist = [
-      // Example users
+      
       { id: 1, name: 'John Doe', email: 'john.doe@example.com', contact: '1234567890', city: 'New York', isActive: true, selected: false },
       { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com', contact: '2345678901', city: 'Los Angeles', isActive: false, selected: false },
       { id: 3, name: 'Alice Johnson', email: 'alice.johnson@example.com', contact: '3456789012', city: 'Chicago', isActive: true, selected: false },
@@ -35,7 +35,7 @@ export class UserListComponent implements OnInit {
       { id: 7, name: 'Frank Moore', email: 'frank.moore@example.com', contact: '7890123456', city: 'San Diego', isActive: false },
       { id: 8, name: 'Grace Taylor', email: 'grace.taylor@example.com', contact: '8901234567', city: 'Dallas', isActive: true },
       { id: 9, name: 'Hannah White', email: 'hannah.white@example.com', contact: '9012345678', city: 'San Jose', isActive: true },
-      { id: 10, name: 'Isaac Clark', email: 'isaac.clark@example.com', contact: '1123456789', city: 'Austin', isActive: false },
+      // { id: 10, name: 'Isaac Clark', email: 'isaac.clark@example.com', contact: '1123456789', city: 'Austin', isActive: false },
       { id: 11, name: 'Jack Lee', email: 'jack.lee@example.com', contact: '2234567890', city: 'Jacksonville', isActive: true },
       { id: 12, name: 'Karen Martin', email: 'karen.martin@example.com', contact: '3345678901', city: 'Fort Worth', isActive: true },
       { id: 13, name: 'Liam Lewis', email: 'liam.lewis@example.com', contact: '4456789012', city: 'Columbus', isActive: false },

@@ -64,9 +64,7 @@ export const routes: Routes = [
     ReactiveFormsModule,
     CommonModule,
     NewUserComponent,
-    
-  
-  ],
+     ],
   providers: [],
   bootstrap: [AppComponent],
 })
